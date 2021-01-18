@@ -1,12 +1,40 @@
+body {
+  font-family: "Oswald", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+section {
+  padding: 75px 0;
+  min-height: 80vh;
+  background: #fabc28;
+}
+
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.hero-text {
+  width: 25%;
+  font-size: 38px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-images {
+  text-align: center;
 }
 
 .image-macbook {
